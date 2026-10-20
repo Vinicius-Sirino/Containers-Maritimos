@@ -1,0 +1,5 @@
+Codigo;Nome_Carga;Lucro_Unitario_R$;Peso_Ton;Volume_M3;Amarracao_Pontos;Tipo_Embalagem
+X1;Maquinario Pesado Industrial;14000;4.5;6.0;20.0;unidades
+X2;Pecas Automotivas em Paletes;7000;1.8;5.5;10.0;paletes
+X3;Eletronicos e Componentes;16000;1.2;8.0;12.0;lotes
+X4;Texteis e Roupas Premium;9500;0.8;7.2;8.0;fardos

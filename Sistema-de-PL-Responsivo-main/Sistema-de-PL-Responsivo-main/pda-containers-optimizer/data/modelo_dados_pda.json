@@ -1,0 +1,62 @@
+{
+  "scenarioName": "Carregamento Otimizado - Container 40' High Cube (4 Cargas Ativas)",
+  "variables": [
+    {
+      "code": "X1",
+      "name": "Maquinário Pesado",
+      "profitCoefficient": 3000.0,
+      "unit": "unid"
+    },
+    {
+      "code": "X2",
+      "name": "Peças Automotivas",
+      "profitCoefficient": 2700.0,
+      "unit": "paletes"
+    },
+    {
+      "code": "X3",
+      "name": "Eletrônicos & Chips",
+      "profitCoefficient": 3700.0,
+      "unit": "lotes"
+    },
+    {
+      "code": "X4",
+      "name": "Têxteis e Roupas",
+      "profitCoefficient": 2750.0,
+      "unit": "fardos"
+    }
+  ],
+  "constraints": [
+    {
+      "slackCode": "S1",
+      "name": "Peso Máximo (Payload)",
+      "capacityRhs": 48.0,
+      "unit": "toneladas"
+    },
+    {
+      "slackCode": "S2",
+      "name": "Volume do Container (Espaço)",
+      "capacityRhs": 55.0,
+      "unit": "m³"
+    },
+    {
+      "slackCode": "S3",
+      "name": "Pontos de Amarração (Peação)",
+      "capacityRhs": 54.0,
+      "unit": "pontos"
+    },
+    {
+      "slackCode": "S4",
+      "name": "Horas de Estiva (Equipe)",
+      "capacityRhs": 44.0,
+      "unit": "horas"
+    }
+  ],
+  "technologyMatrix": [
+    [6.0, 2.0, 2.0, 2.0],
+    [5.0, 2.0, 5.0, 1.0],
+    [2.0, 4.0, 6.0, 1.0],
+    [1.0, 2.0, 2.0, 6.0]
+  ],
+  "maxIterations": 50
+}
